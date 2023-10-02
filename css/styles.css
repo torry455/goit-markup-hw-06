@@ -1631,7 +1631,16 @@ address {
 
 }
 
-@media screen and (min-width: 1158px) {}
+@media screen and (min-width: 1158px) {
+
+    .modal {
+        width: 408px;
+        height: 584px;
+
+        padding: 72px 24px 24px;
+    }
+
+}
 
 /* END Modal */
 
