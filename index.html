@@ -24,19 +24,21 @@
  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
+<body style="overflow: hidden">
     <!--Header section-->
     <header class="header">
 
         <div class="header-inner container">
 
-        <button class="mobile-menu-toggle" data-mob-container-open>
-    <svg class="mob-menu-icon" >
-        <use href="./images/icons.svg#icon-mob-menu">
-
-        </use>
-    </svg>
+<input type="checkbox" id="mobile-menu-toggle" class="mob-checkbox ">
+<label for="mobile-menu-toggle" class="mobile-menu-toggle-label">
+    <button class="mobile-menu-toggle" type="button" data-mob-container-open>
+        <svg class="mob-menu-icon">
+            <use href="./images/icons.svg#icon-mob-menu">
+            </use>
+        </svg>
     </button>
+    
             <nav class="header-menu">
 
                 <a class="logo" href="./index.html">
@@ -79,13 +81,6 @@
 
             <div class="container">
 
-                <!-- <img 
-                
-                srcset="./images/hero-image/hero-image_mob.jpg 1x, ./images/hero-image/hero-image_mob@2x.jpg 2x, ./images/hero-image/hero-image_tab.jpg 1x, ./images/hero-image/hero-image_tab@2x.jpg 2x, ./images/hero-image/hero-image_desc.jpg 1x, ./images/hero-image/hero-image_desc@2x.jpg 2x " 
-
-                src="./images/hero-image/hero-image.jpg"
-                alt="Background picture of people in the office"
-                /> -->
         <div class="hero-inner">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
 
@@ -740,7 +735,6 @@
 
 <div class="mobile-backdrop is-open">
     
-    <div class="mob-container">
 
 <div class="mob-inner">
 
